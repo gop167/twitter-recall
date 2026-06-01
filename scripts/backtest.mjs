@@ -896,7 +896,12 @@ async function buildPriceDataset(calls) {
         throw new Error("GeckoTerminal public API only exposes recent on-chain OHLCV; this call window is older than 180 days");
       }
       const candles = await fetchCandles(token.source, startMs, endMs);
-      const listingStartMs = await fetchListingStartMs(token.source, candles, startMs);
+      let listingStartMs = null;
+      try {
+        listingStartMs = await fetchListingStartMs(token.source, candles, startMs);
+      } catch (error) {
+        console.warn(`[price] ${token.symbol} listing-start lookup failed: ${error.message}`);
+      }
       const metrics = callsForToken.map((call) =>
         analyzeCall(call, candles, listingStartMs, { allowFirstDay: ["alpha", "multi"].includes(token.source.type) }),
       );
