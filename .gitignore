@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+node_modules/
+npm-debug.log*
+
+# Generated scratch/backups
+output_*/
+
+# Recreated on every run; not needed to open the report on another machine.
+output/x_main.js
+output/raw_timeline.json
