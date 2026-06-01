@@ -1585,8 +1585,8 @@ async function main() {
 
   const scriptSrc = await ensurePlotlyAsset();
   const dashboard = buildDashboard(dataset, metrics, configMeta, scriptSrc);
-  await writeOutputFile("dashboard.html", dashboard);
-  console.log(`[done] output/dashboard.html`);
+  const dashboardPath = await writeOutputFile("dashboard.html", dashboard);
+  console.log(`[done] ${dashboardPath}`);
 }
 
 main().catch((error) => {

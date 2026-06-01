@@ -5,6 +5,7 @@ npm-debug.log*
 
 # Generated scratch/backups
 output_*/
+*.bundle
 
 # Recreated on every run; not needed to open the report on another machine.
 output/x_main.js
