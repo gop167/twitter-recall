@@ -1,0 +1,797 @@
+{
+  "generatedAt": "2026-06-02T09:13:59.478Z",
+  "endDate": "2026-06-02",
+  "ktype": "K_DAY",
+  "autype": "NONE",
+  "results": [
+    {
+      "id": "shcomp-2026-01-05-4000-4200",
+      "date": "2026-01-05",
+      "symbol": "SHCOMP",
+      "bias": "long",
+      "confidence": "high",
+      "title": "A股重回4000点以上，继续向4200进发",
+      "source": "https://twstalker.com/shufen46250836/status/2008080161850466319",
+      "levels": [
+        {
+          "price": 4000,
+          "kind": "breakout",
+          "label": "重回4000"
+        },
+        {
+          "price": 4200,
+          "kind": "target",
+          "label": "目标/情绪位4200"
+        }
+      ],
+      "security": {
+        "name": "上证指数",
+        "code": "SH.000001",
+        "market": "CN",
+        "decimals": 2
+      },
+      "candles": 125,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-01-05",
+      "entryPrice": 4083.6672,
+      "close5": 4165.287,
+      "close20": 4132.6052,
+      "close60": 4096.6023,
+      "return5": 0.019986888255732582,
+      "return20": 0.011983836488928423,
+      "return60": 0.003167520605009022,
+      "maxHigh60": 4197.228,
+      "minLow60": 4002.782,
+      "mfe60": 0.02780853444668563,
+      "mae60": 0.02020724586050404,
+      "levelResults": [
+        {
+          "price": 4000,
+          "kind": "breakout",
+          "label": "重回4000",
+          "status": "already_past_at_entry",
+          "direction": "already",
+          "date": "2026-01-05",
+          "close": 4083.6672
+        },
+        {
+          "price": 4200,
+          "kind": "target",
+          "label": "目标/情绪位4200",
+          "status": "touched",
+          "direction": "up",
+          "date": "2026-05-10",
+          "close": 4225.0207
+        }
+      ]
+    },
+    {
+      "id": "amkr-2026-01-06-48-60",
+      "date": "2026-01-06",
+      "symbol": "AMKR",
+      "bias": "long",
+      "confidence": "high",
+      "title": "AMKR站上48压力位，先看到60",
+      "source": "https://twstalker.com/shufen46250836/status/2008441491690287338",
+      "levels": [
+        {
+          "price": 48,
+          "kind": "breakout",
+          "label": "站上48压力"
+        },
+        {
+          "price": 60,
+          "kind": "target",
+          "label": "先看到60"
+        }
+      ],
+      "security": {
+        "name": "Amkor Technology",
+        "code": "US.AMKR",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 129,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-01-06",
+      "entryPrice": 51.29,
+      "close5": 51.58,
+      "close20": 50.39,
+      "close60": 43.22,
+      "return5": 0.005654123610840278,
+      "return20": -0.017547280171573365,
+      "return60": -0.1573406122051082,
+      "maxHigh60": 57.09,
+      "minLow60": 41.3,
+      "mfe60": 0.11308247221680645,
+      "mae60": 0.24188861985472165,
+      "levelResults": [
+        {
+          "price": 48,
+          "kind": "breakout",
+          "label": "站上48压力",
+          "status": "already_past_at_entry",
+          "direction": "already",
+          "date": "2026-01-06",
+          "close": 51.29
+        },
+        {
+          "price": 60,
+          "kind": "target",
+          "label": "先看到60",
+          "status": "touched",
+          "direction": "up",
+          "date": "2026-04-13",
+          "close": 60.44
+        }
+      ]
+    },
+    {
+      "id": "googl-2026-01-06-270",
+      "date": "2026-01-06",
+      "symbol": "GOOGL",
+      "bias": "long",
+      "confidence": "high",
+      "title": "谷歌270也快实现",
+      "source": "https://twstalker.com/shufen46250836/status/2008441491690287338",
+      "levels": [
+        {
+          "price": 270,
+          "kind": "target",
+          "label": "270目标"
+        }
+      ],
+      "security": {
+        "name": "Alphabet",
+        "code": "US.GOOGL",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 129,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-01-06",
+      "entryPrice": 314.34,
+      "close5": 331.86,
+      "close20": 333.26,
+      "close60": 306.36,
+      "return5": 0.05573582744798644,
+      "return20": 0.06018960361392134,
+      "return60": -0.025386524145829203,
+      "maxHigh60": 349,
+      "minLow60": 295.18,
+      "mfe60": 0.11026277279379015,
+      "mae60": 0.06490954671725713,
+      "levelResults": [
+        {
+          "price": 270,
+          "kind": "target",
+          "label": "270目标",
+          "status": "already_past_at_entry",
+          "direction": "already",
+          "date": "2026-01-06",
+          "close": 314.34
+        }
+      ]
+    },
+    {
+      "id": "aapl-2026-01-06-230",
+      "date": "2026-01-06",
+      "symbol": "AAPL",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "回顾苹果此前看到230",
+      "source": "https://twstalker.com/shufen46250836/status/2008441491690287338",
+      "levels": [
+        {
+          "price": 230,
+          "kind": "target",
+          "label": "230回顾位"
+        }
+      ],
+      "security": {
+        "name": "Apple",
+        "code": "US.AAPL",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 129,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-01-06",
+      "entryPrice": 262.36,
+      "close5": 260.25,
+      "close20": 255.41,
+      "close60": 259.88,
+      "return5": -0.008042384509833855,
+      "return20": -0.026490318646135158,
+      "return60": -0.00945266046653459,
+      "maxHigh60": 280.905,
+      "minLow60": 243.42,
+      "mfe60": 0.0706853178838236,
+      "mae60": 0.0778079040341797,
+      "levelResults": [
+        {
+          "price": 230,
+          "kind": "target",
+          "label": "230回顾位",
+          "status": "already_past_at_entry",
+          "direction": "already",
+          "date": "2026-01-06",
+          "close": 262.36
+        }
+      ]
+    },
+    {
+      "id": "avgo-2026-01-07-430",
+      "date": "2026-01-07",
+      "symbol": "AVGO",
+      "bias": "long",
+      "confidence": "high",
+      "title": "博通430短期目标价会实现",
+      "source": "https://twstalker.com/shufen46250836/status/2008812126803202463",
+      "levels": [
+        {
+          "price": 430,
+          "kind": "target",
+          "label": "短期目标430"
+        }
+      ],
+      "security": {
+        "name": "Broadcom",
+        "code": "US.AVGO",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 129,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-01-07",
+      "entryPrice": 343.5,
+      "close5": 352.21,
+      "close20": 332.79,
+      "close60": 345.75,
+      "return5": 0.025356622998544243,
+      "return20": -0.03117903930130994,
+      "return60": 0.0065502183406114245,
+      "maxHigh60": 359.49,
+      "minLow60": 295.3,
+      "mfe60": 0.04655021834061146,
+      "mae60": 0.16322384016254654,
+      "levelResults": [
+        {
+          "price": 430,
+          "kind": "target",
+          "label": "短期目标430",
+          "status": "touched",
+          "direction": "up",
+          "date": "2026-05-05",
+          "close": 427.36
+        }
+      ]
+    },
+    {
+      "id": "fcx-2026-01-07-60",
+      "date": "2026-01-07",
+      "symbol": "FCX",
+      "bias": "long",
+      "confidence": "high",
+      "title": "FCX快到60点位，铜仓位减仓",
+      "source": "https://twstalker.com/shufen46250836/status/2008812126803202463",
+      "levels": [
+        {
+          "price": 60,
+          "kind": "target",
+          "label": "60减仓/目标位"
+        }
+      ],
+      "security": {
+        "name": "Freeport-McMoRan",
+        "code": "US.FCX",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 129,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-01-07",
+      "entryPrice": 55.5,
+      "close5": 58.71,
+      "close20": 62.87,
+      "close60": 60.49,
+      "return5": 0.05783783783783791,
+      "return20": 0.13279279279279277,
+      "return60": 0.08990990990990988,
+      "maxHigh60": 69.75,
+      "minLow60": 53.285,
+      "mfe60": 0.2567567567567568,
+      "mae60": 0.041568921835413386,
+      "levelResults": [
+        {
+          "price": 60,
+          "kind": "target",
+          "label": "60减仓/目标位",
+          "status": "touched",
+          "direction": "up",
+          "date": "2026-01-13",
+          "close": 59.34
+        }
+      ]
+    },
+    {
+      "id": "sndk-2025-12-08-230",
+      "date": "2025-12-08",
+      "symbol": "SNDK",
+      "bias": "long",
+      "confidence": "high",
+      "title": "230的位置买了闪迪",
+      "source": "https://twstalker.com/shufen46250836/status/1998057714719789182",
+      "levels": [
+        {
+          "price": 230,
+          "kind": "entry",
+          "label": "230买入位"
+        }
+      ],
+      "security": {
+        "name": "SanDisk",
+        "code": "US.SNDK",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 150,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2025-12-08",
+      "entryPrice": 225.47,
+      "close5": 201.87,
+      "close20": 244.25,
+      "close60": 597.95,
+      "return5": -0.10467024437840955,
+      "return20": 0.08329267751807334,
+      "return60": 1.652015789240254,
+      "maxHigh60": 725,
+      "minLow60": 199.5,
+      "mfe60": 2.2155053887435137,
+      "mae60": 0.13017543859649128,
+      "levelResults": [
+        {
+          "price": 230,
+          "kind": "entry",
+          "label": "230买入位",
+          "status": "touched",
+          "direction": "any",
+          "date": "2025-12-08",
+          "close": 225.47
+        }
+      ]
+    },
+    {
+      "id": "shcomp-2026-05-29-4050-4200",
+      "date": "2026-05-29",
+      "symbol": "SHCOMP",
+      "bias": "long",
+      "confidence": "high",
+      "title": "关注4050支撑，4200仍是短期情绪卖点",
+      "source": "https://twstalker.com/shufen46250836/status/2060287444306784572",
+      "levels": [
+        {
+          "price": 4050,
+          "kind": "support",
+          "label": "4050支撑"
+        },
+        {
+          "price": 4200,
+          "kind": "target",
+          "label": "4200情绪卖点"
+        }
+      ],
+      "security": {
+        "name": "上证指数",
+        "code": "SH.000001",
+        "market": "CN",
+        "decimals": 2
+      },
+      "candles": 125,
+      "status": "partial",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-05-31",
+      "entryPrice": 4057.74,
+      "close5": 4075.1016,
+      "close20": 4075.1016,
+      "close60": 4075.1016,
+      "return5": 0.0042786378624555255,
+      "return20": 0.0042786378624555255,
+      "return60": 0.0042786378624555255,
+      "maxHigh60": 4093.0405,
+      "minLow60": 4032.5826,
+      "mfe60": 0.0086995470384994,
+      "mae60": 0.006238533092911558,
+      "levelResults": [
+        {
+          "price": 4050,
+          "kind": "support",
+          "label": "4050支撑",
+          "status": "touched",
+          "direction": "down",
+          "date": "2026-05-31",
+          "close": 4057.74
+        },
+        {
+          "price": 4200,
+          "kind": "target",
+          "label": "4200情绪卖点",
+          "status": "not_touched",
+          "direction": "up"
+        }
+      ]
+    },
+    {
+      "id": "igv-2026-05-29-100",
+      "date": "2026-05-29",
+      "symbol": "IGV",
+      "bias": "long",
+      "confidence": "high",
+      "title": "IGV从80到100，突破100则软件趋势反转",
+      "source": "https://twstalker.com/shufen46250836/status/2060287444306784572",
+      "levels": [
+        {
+          "price": 80,
+          "kind": "reference",
+          "label": "此前80附近"
+        },
+        {
+          "price": 100,
+          "kind": "breakout",
+          "label": "100压力/突破"
+        }
+      ],
+      "security": {
+        "name": "iShares Expanded Tech-Software Sector ETF",
+        "code": "US.IGV",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 34,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-05-29",
+      "entryPrice": 101.66,
+      "close5": 107.7,
+      "close20": 107.7,
+      "close60": 107.7,
+      "return5": 0.059413732048003265,
+      "return20": 0.059413732048003265,
+      "return60": 0.059413732048003265,
+      "maxHigh60": 108.055,
+      "minLow60": 96.53,
+      "mfe60": 0.06290576431241401,
+      "mae60": 0.05314410027970573,
+      "levelResults": [
+        {
+          "price": 80,
+          "kind": "reference",
+          "label": "此前80附近",
+          "status": "not_touched",
+          "direction": "any"
+        },
+        {
+          "price": 100,
+          "kind": "breakout",
+          "label": "100压力/突破",
+          "status": "already_past_at_entry",
+          "direction": "already",
+          "date": "2026-05-29",
+          "close": 101.66
+        }
+      ]
+    },
+    {
+      "id": "igv-2026-06-01-107",
+      "date": "2026-06-01",
+      "symbol": "IGV",
+      "bias": "long",
+      "confidence": "high",
+      "title": "关注IGV能否突破107",
+      "source": "https://twstalker.com/shufen46250836/status/2061371481670709737",
+      "levels": [
+        {
+          "price": 107,
+          "kind": "breakout",
+          "label": "107突破观察"
+        }
+      ],
+      "security": {
+        "name": "iShares Expanded Tech-Software Sector ETF",
+        "code": "US.IGV",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 34,
+      "status": "all_levels_hit",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-06-01",
+      "entryPrice": 107.7,
+      "close5": 107.7,
+      "close20": 107.7,
+      "close60": 107.7,
+      "return5": 0,
+      "return20": 0,
+      "return60": 0,
+      "maxHigh60": 108.055,
+      "minLow60": 102.95,
+      "mfe60": 0.0032961931290622637,
+      "mae60": 0.04613890237979601,
+      "levelResults": [
+        {
+          "price": 107,
+          "kind": "breakout",
+          "label": "107突破观察",
+          "status": "already_past_at_entry",
+          "direction": "already",
+          "date": "2026-06-01",
+          "close": 107.7
+        }
+      ]
+    },
+    {
+      "id": "crm-2026-05-29-mention",
+      "date": "2026-05-29",
+      "symbol": "CRM",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "硬件切软件，持有CRM并用正股+期权增强",
+      "source": "https://twstalker.com/shufen46250836/status/2060287444306784572",
+      "levels": [],
+      "security": {
+        "name": "Salesforce",
+        "code": "US.CRM",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 34,
+      "status": "mention_only",
+      "latestAvailableMarker": false,
+      "entryDate": "2026-05-29",
+      "entryPrice": 191.1,
+      "close5": 209.6,
+      "close20": 209.6,
+      "close60": 209.6,
+      "return5": 0.0968079539508111,
+      "return20": 0.0968079539508111,
+      "return60": 0.0968079539508111,
+      "maxHigh60": 211.34,
+      "minLow60": 180.02,
+      "mfe60": 0.10591313448456319,
+      "mae60": 0.06154871680924323,
+      "levelResults": []
+    },
+    {
+      "id": "cohr-2026-06-02-prefer",
+      "date": "2026-06-02",
+      "symbol": "COHR",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "光模块领域更喜欢COHR",
+      "source": "user_supplied_material.md",
+      "levels": [],
+      "security": {
+        "name": "Coherent",
+        "code": "US.COHR",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 30,
+      "status": "mention_only_latest",
+      "latestAvailableMarker": true,
+      "entryDate": "2026-06-01",
+      "entryPrice": 362.9,
+      "close5": null,
+      "close20": null,
+      "close60": null,
+      "return5": null,
+      "return20": null,
+      "return60": null,
+      "maxHigh60": 366,
+      "minLow60": 346.63,
+      "mfe60": 0.008542298153761507,
+      "mae60": 0.046937656867553246,
+      "levelResults": []
+    },
+    {
+      "id": "aaoi-2026-06-02-comparison",
+      "date": "2026-06-02",
+      "symbol": "AAOI",
+      "bias": "neutral",
+      "confidence": "medium",
+      "title": "AAOI作为Serenity偏好的对照",
+      "source": "user_supplied_material.md",
+      "levels": [],
+      "security": {
+        "name": "Applied Optoelectronics",
+        "code": "US.AAOI",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 30,
+      "status": "mention_only_latest",
+      "latestAvailableMarker": true,
+      "entryDate": "2026-06-01",
+      "entryPrice": 185.67,
+      "close5": null,
+      "close20": null,
+      "close60": null,
+      "return5": null,
+      "return20": null,
+      "return60": null,
+      "maxHigh60": 191.98,
+      "minLow60": 149.05,
+      "mfe60": 0.033985027198793594,
+      "mae60": 0.2456893659845687,
+      "levelResults": []
+    },
+    {
+      "id": "alab-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "ALAB",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "互联双子星ALAB成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": [],
+      "security": {
+        "name": "Astera Labs",
+        "code": "US.ALAB",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 30,
+      "status": "mention_only_latest",
+      "latestAvailableMarker": true,
+      "entryDate": "2026-06-01",
+      "entryPrice": 320.09,
+      "close5": null,
+      "close20": null,
+      "close60": null,
+      "return5": null,
+      "return20": null,
+      "return60": null,
+      "maxHigh60": 333.4299,
+      "minLow60": 316.0001,
+      "mfe60": 0.04167546627511021,
+      "mae60": 0.012942717423190642,
+      "levelResults": []
+    },
+    {
+      "id": "mrvl-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "MRVL",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "互联双子星MRVL成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": [],
+      "security": {
+        "name": "Marvell Technology",
+        "code": "US.MRVL",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 30,
+      "status": "mention_only_latest",
+      "latestAvailableMarker": true,
+      "entryDate": "2026-06-01",
+      "entryPrice": 219.43,
+      "close5": null,
+      "close20": null,
+      "close60": null,
+      "return5": null,
+      "return20": null,
+      "return60": null,
+      "maxHigh60": 225.14,
+      "minLow60": 195.12,
+      "mfe60": 0.02602196600282536,
+      "mae60": 0.124589995899959,
+      "levelResults": []
+    },
+    {
+      "id": "flnc-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "FLNC",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "储能明星FLNC成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": [],
+      "security": {
+        "name": "Fluence Energy",
+        "code": "US.FLNC",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 30,
+      "status": "mention_only_latest",
+      "latestAvailableMarker": true,
+      "entryDate": "2026-06-01",
+      "entryPrice": 27.15,
+      "close5": null,
+      "close20": null,
+      "close60": null,
+      "return5": null,
+      "return20": null,
+      "return60": null,
+      "maxHigh60": 28.88,
+      "minLow60": 23.2442,
+      "mfe60": 0.06372007366482513,
+      "mae60": 0.16803331583792946,
+      "levelResults": []
+    },
+    {
+      "id": "flex-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "FLEX",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "电力系统双子星FLEX成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": [],
+      "security": {
+        "name": "Flex",
+        "code": "US.FLEX",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 30,
+      "status": "mention_only_latest",
+      "latestAvailableMarker": true,
+      "entryDate": "2026-06-01",
+      "entryPrice": 148.01,
+      "close5": null,
+      "close20": null,
+      "close60": null,
+      "return5": null,
+      "return20": null,
+      "return60": null,
+      "maxHigh60": 151.16,
+      "minLow60": 145.51,
+      "mfe60": 0.02128234578744692,
+      "mae60": 0.017180949762902964,
+      "levelResults": []
+    },
+    {
+      "id": "fps-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "FPS",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "电力系统双子星FPS成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": [],
+      "security": {
+        "name": "Forgent Power Solutions",
+        "code": "US.FPS",
+        "market": "US",
+        "decimals": 2
+      },
+      "candles": 30,
+      "status": "mention_only_latest",
+      "latestAvailableMarker": true,
+      "entryDate": "2026-06-01",
+      "entryPrice": 56.35,
+      "close5": null,
+      "close20": null,
+      "close60": null,
+      "return5": null,
+      "return20": null,
+      "return60": null,
+      "maxHigh60": 58.02,
+      "minLow60": 52.67,
+      "mfe60": 0.029636202307009807,
+      "mae60": 0.06986899563318771,
+      "levelResults": []
+    }
+  ],
+  "errors": []
+}

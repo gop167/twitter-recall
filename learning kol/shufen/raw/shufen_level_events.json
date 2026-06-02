@@ -1,0 +1,368 @@
+{
+  "generated_for": "shufen46250836",
+  "notes": [
+    "Events with concrete numeric levels are scored against unadjusted daily candles from Futu OpenD.",
+    "Mention-only events are shown on the K-line as context markers but are not treated as price targets.",
+    "Some older material is from the older TwStalker mirror path shufen4625057, while the target X account is shufen46250836."
+  ],
+  "securities": {
+    "SHCOMP": {
+      "name": "上证指数",
+      "code": "SH.000001",
+      "market": "CN",
+      "decimals": 2
+    },
+    "AMKR": {
+      "name": "Amkor Technology",
+      "code": "US.AMKR",
+      "market": "US",
+      "decimals": 2
+    },
+    "IGV": {
+      "name": "iShares Expanded Tech-Software Sector ETF",
+      "code": "US.IGV",
+      "market": "US",
+      "decimals": 2
+    },
+    "CRM": {
+      "name": "Salesforce",
+      "code": "US.CRM",
+      "market": "US",
+      "decimals": 2
+    },
+    "AVGO": {
+      "name": "Broadcom",
+      "code": "US.AVGO",
+      "market": "US",
+      "decimals": 2
+    },
+    "FCX": {
+      "name": "Freeport-McMoRan",
+      "code": "US.FCX",
+      "market": "US",
+      "decimals": 2
+    },
+    "SNDK": {
+      "name": "SanDisk",
+      "code": "US.SNDK",
+      "market": "US",
+      "decimals": 2
+    },
+    "GOOGL": {
+      "name": "Alphabet",
+      "code": "US.GOOGL",
+      "market": "US",
+      "decimals": 2
+    },
+    "AAPL": {
+      "name": "Apple",
+      "code": "US.AAPL",
+      "market": "US",
+      "decimals": 2
+    },
+    "COHR": {
+      "name": "Coherent",
+      "code": "US.COHR",
+      "market": "US",
+      "decimals": 2
+    },
+    "AAOI": {
+      "name": "Applied Optoelectronics",
+      "code": "US.AAOI",
+      "market": "US",
+      "decimals": 2
+    },
+    "ALAB": {
+      "name": "Astera Labs",
+      "code": "US.ALAB",
+      "market": "US",
+      "decimals": 2
+    },
+    "MRVL": {
+      "name": "Marvell Technology",
+      "code": "US.MRVL",
+      "market": "US",
+      "decimals": 2
+    },
+    "FLNC": {
+      "name": "Fluence Energy",
+      "code": "US.FLNC",
+      "market": "US",
+      "decimals": 2
+    },
+    "FLEX": {
+      "name": "Flex",
+      "code": "US.FLEX",
+      "market": "US",
+      "decimals": 2
+    },
+    "FPS": {
+      "name": "Forgent Power Solutions",
+      "code": "US.FPS",
+      "market": "US",
+      "decimals": 2
+    }
+  },
+  "events": [
+    {
+      "id": "shcomp-2026-01-05-4000-4200",
+      "date": "2026-01-05",
+      "symbol": "SHCOMP",
+      "bias": "long",
+      "confidence": "high",
+      "title": "A股重回4000点以上，继续向4200进发",
+      "source": "https://twstalker.com/shufen46250836/status/2008080161850466319",
+      "levels": [
+        {
+          "price": 4000,
+          "kind": "breakout",
+          "label": "重回4000"
+        },
+        {
+          "price": 4200,
+          "kind": "target",
+          "label": "目标/情绪位4200"
+        }
+      ]
+    },
+    {
+      "id": "amkr-2026-01-06-48-60",
+      "date": "2026-01-06",
+      "symbol": "AMKR",
+      "bias": "long",
+      "confidence": "high",
+      "title": "AMKR站上48压力位，先看到60",
+      "source": "https://twstalker.com/shufen46250836/status/2008441491690287338",
+      "levels": [
+        {
+          "price": 48,
+          "kind": "breakout",
+          "label": "站上48压力"
+        },
+        {
+          "price": 60,
+          "kind": "target",
+          "label": "先看到60"
+        }
+      ]
+    },
+    {
+      "id": "googl-2026-01-06-270",
+      "date": "2026-01-06",
+      "symbol": "GOOGL",
+      "bias": "long",
+      "confidence": "high",
+      "title": "谷歌270也快实现",
+      "source": "https://twstalker.com/shufen46250836/status/2008441491690287338",
+      "levels": [
+        {
+          "price": 270,
+          "kind": "target",
+          "label": "270目标"
+        }
+      ]
+    },
+    {
+      "id": "aapl-2026-01-06-230",
+      "date": "2026-01-06",
+      "symbol": "AAPL",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "回顾苹果此前看到230",
+      "source": "https://twstalker.com/shufen46250836/status/2008441491690287338",
+      "levels": [
+        {
+          "price": 230,
+          "kind": "target",
+          "label": "230回顾位"
+        }
+      ]
+    },
+    {
+      "id": "avgo-2026-01-07-430",
+      "date": "2026-01-07",
+      "symbol": "AVGO",
+      "bias": "long",
+      "confidence": "high",
+      "title": "博通430短期目标价会实现",
+      "source": "https://twstalker.com/shufen46250836/status/2008812126803202463",
+      "levels": [
+        {
+          "price": 430,
+          "kind": "target",
+          "label": "短期目标430"
+        }
+      ]
+    },
+    {
+      "id": "fcx-2026-01-07-60",
+      "date": "2026-01-07",
+      "symbol": "FCX",
+      "bias": "long",
+      "confidence": "high",
+      "title": "FCX快到60点位，铜仓位减仓",
+      "source": "https://twstalker.com/shufen46250836/status/2008812126803202463",
+      "levels": [
+        {
+          "price": 60,
+          "kind": "target",
+          "label": "60减仓/目标位"
+        }
+      ]
+    },
+    {
+      "id": "sndk-2025-12-08-230",
+      "date": "2025-12-08",
+      "symbol": "SNDK",
+      "bias": "long",
+      "confidence": "high",
+      "title": "230的位置买了闪迪",
+      "source": "https://twstalker.com/shufen46250836/status/1998057714719789182",
+      "levels": [
+        {
+          "price": 230,
+          "kind": "entry",
+          "label": "230买入位"
+        }
+      ]
+    },
+    {
+      "id": "shcomp-2026-05-29-4050-4200",
+      "date": "2026-05-29",
+      "symbol": "SHCOMP",
+      "bias": "long",
+      "confidence": "high",
+      "title": "关注4050支撑，4200仍是短期情绪卖点",
+      "source": "https://twstalker.com/shufen46250836/status/2060287444306784572",
+      "levels": [
+        {
+          "price": 4050,
+          "kind": "support",
+          "label": "4050支撑"
+        },
+        {
+          "price": 4200,
+          "kind": "target",
+          "label": "4200情绪卖点"
+        }
+      ]
+    },
+    {
+      "id": "igv-2026-05-29-100",
+      "date": "2026-05-29",
+      "symbol": "IGV",
+      "bias": "long",
+      "confidence": "high",
+      "title": "IGV从80到100，突破100则软件趋势反转",
+      "source": "https://twstalker.com/shufen46250836/status/2060287444306784572",
+      "levels": [
+        {
+          "price": 80,
+          "kind": "reference",
+          "label": "此前80附近"
+        },
+        {
+          "price": 100,
+          "kind": "breakout",
+          "label": "100压力/突破"
+        }
+      ]
+    },
+    {
+      "id": "igv-2026-06-01-107",
+      "date": "2026-06-01",
+      "symbol": "IGV",
+      "bias": "long",
+      "confidence": "high",
+      "title": "关注IGV能否突破107",
+      "source": "https://twstalker.com/shufen46250836/status/2061371481670709737",
+      "levels": [
+        {
+          "price": 107,
+          "kind": "breakout",
+          "label": "107突破观察"
+        }
+      ]
+    },
+    {
+      "id": "crm-2026-05-29-mention",
+      "date": "2026-05-29",
+      "symbol": "CRM",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "硬件切软件，持有CRM并用正股+期权增强",
+      "source": "https://twstalker.com/shufen46250836/status/2060287444306784572",
+      "levels": []
+    },
+    {
+      "id": "cohr-2026-06-02-prefer",
+      "date": "2026-06-02",
+      "symbol": "COHR",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "光模块领域更喜欢COHR",
+      "source": "user_supplied_material.md",
+      "levels": []
+    },
+    {
+      "id": "aaoi-2026-06-02-comparison",
+      "date": "2026-06-02",
+      "symbol": "AAOI",
+      "bias": "neutral",
+      "confidence": "medium",
+      "title": "AAOI作为Serenity偏好的对照",
+      "source": "user_supplied_material.md",
+      "levels": []
+    },
+    {
+      "id": "alab-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "ALAB",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "互联双子星ALAB成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": []
+    },
+    {
+      "id": "mrvl-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "MRVL",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "互联双子星MRVL成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": []
+    },
+    {
+      "id": "flnc-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "FLNC",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "储能明星FLNC成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": []
+    },
+    {
+      "id": "flex-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "FLEX",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "电力系统双子星FLEX成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": []
+    },
+    {
+      "id": "fps-2026-06-02-success",
+      "date": "2026-06-02",
+      "symbol": "FPS",
+      "bias": "long",
+      "confidence": "medium",
+      "title": "电力系统双子星FPS成为圈内热点",
+      "source": "user_supplied_material.md",
+      "levels": []
+    }
+  ]
+}
